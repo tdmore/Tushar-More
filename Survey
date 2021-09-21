@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ATT Course Feedback</title>
+</head>
+<body>
+     <h4>ATT Course Feedback</h4>
+	<form>
+	    <fieldset>
+		    <legend>Feedback</legend>
+			<label>Enter the name</label><br>
+			<input type="text" name="name"><br>
+			<label>Enter the email</label><br>
+			<input type="email" name="email"><br>
+			<label>Enter the password</label><br>
+			<input type="password" name="pass"><br>
+			<br><label>Enter the subject</label><br>
+			<input type="radio" id="subject" name="subject" value="Aptitude"/>Aptitude<br>
+	        <input type="radio" id="subject" name="subject" value="English"/>English<br>
+	        <input type="radio" id="subject" name="subject" value="IWT"/>IWT<br>
+			<input type="radio" id="subject" name="subject" value="C language"/>C language<br>
+			<br><label> Enter the feedback</label><br>
+			<input type="radio" id="gender" name="gender" value="Excellent"/>Excellent<br>
+	        <input type="radio" id="gender" name="gender" value="Very Good"/>Very Good<br>
+	        <input type="radio" id="gender" name="gender" value="Good"/>Good<br>
+			<p>Aptitude</p><br>
+			 <input textarea></textarea>
+			<p>English</p><br>
+			<input textarea></textarea>
+			<p>IWT</p><br>
+			<input textarea></textarea>
+			<p>C language</p><br>
+			<input textarea></textarea>
+			<br>Enter your address:<br>
+			<input textarea></textarea><br>
+			<input type="submit" value="submit">
+		</fieldset>
+	</form>
+</body>
+</html>
